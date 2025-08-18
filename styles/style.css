@@ -1,5 +1,5 @@
 /* ЗАГОЛОВОК САЙТА */
-  
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -88,7 +88,7 @@
 #tebe {
   display: block;
   margin-left: 380px;
-  margin-top: 20px; 
+  margin-top: 20px;
   width: 100%;
 }
 
@@ -150,7 +150,7 @@
 .card_conteiner {
   position: relative;
   width: 334px;
-  min-height: 600px; 
+  min-height: 600px;
 }
 
 .card_background {

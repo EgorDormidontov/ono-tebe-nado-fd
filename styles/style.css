@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 90px;
+  margin-top: 85px;
   margin-bottom: 90px;
 }
 .navigation {
@@ -17,7 +17,7 @@
 
 .image_header {
   position: relative;
-  width: 155px;
+  width: 150x;
   height: 110px;
   margin-right: 150px;
 }
@@ -27,8 +27,8 @@
 }
 
 .basic_info {
-  width:250px;
-  margin-right: 50px;
+  width:220px;
+  margin-right: 35px;
   margin-bottom: 20px;
   font-size: 18px;
   line-height: auto;
@@ -100,13 +100,13 @@
 .text_main_screen_over_betbutton {
   display: inline-block;
   color: white;
-  margin-top: 106px;
+  margin-top: 110px;
   margin-left: 50px;
   width: 65%;
   font-weight: lighter;
   font-size: 22px;
   text-transform: uppercase;
-  word-spacing: 15px;
+  word-spacing: 27px;
 }
 
 .betbutton_style {
@@ -117,12 +117,12 @@
   font-size: 22px;
   text-transform: uppercase;
   background-color: transparent;
-  margin-left: 20px;
+  margin-left: 25px;
 }
 
 /* ЛОТЫ */
 .Lots_section_header {
-  margin-top: 180px;
+  margin-top: 170px;
   margin-left: 65px;
   font-size: 40px;
   text-transform: uppercase;
@@ -133,7 +133,7 @@
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 25px;
-  margin-top: 27px;
+  margin-top: 25px;
   margin-left: 25px;
   list-style: none;
 }

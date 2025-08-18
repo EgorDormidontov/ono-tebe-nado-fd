@@ -1,9 +1,5 @@
 /* ЗАГОЛОВОК САЙТА */
-body {
-  width: 1100px;
-  margin: 0 auto;
-  font-family: Raleway, sans-serif;
-}
+
 .header {
   display: flex;
   justify-content: space-between;

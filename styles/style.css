@@ -1,6 +1,6 @@
 /* ЗАГОЛОВОК САЙТА */
 
-/* .header {
+.header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,7 +43,7 @@
   border-bottom: 1.5px solid black;
   text-decoration: none;
 }
- */
+
 
 /* ГЛАВНАЯ СЕКЦИЯ */
 
@@ -80,7 +80,6 @@
 
 #ono {
   display: block;
-  width: 100%;
   margin-left: 50px;
   padding-top: 165px;
 }
@@ -89,7 +88,6 @@
   display: block;
   margin-left: 380px;
   margin-top: 20px;
-  width: 100%;
 }
 
 #nado {

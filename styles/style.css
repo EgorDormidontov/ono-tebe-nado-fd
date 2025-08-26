@@ -163,15 +163,15 @@
 }
 
 .film {
-  background-image: url(./images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .book {
-  background-image: url(./images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .painting {
-  background-image: url(./images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .card_info {
@@ -211,7 +211,7 @@
 /* СЕКЦИЯ О ПРОЕКТЕ */
 .about {
   display: grid;
-  grid-template-columns: 334px 1fr;
+  grid-template-columns: 350px 1fr;
   margin-top: 115px;
 
 }

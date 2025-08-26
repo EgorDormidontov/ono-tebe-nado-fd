@@ -211,7 +211,7 @@
 /* СЕКЦИЯ О ПРОЕКТЕ */
 .about {
   display: grid;
-  grid-template-columns: 350px 1fr;
+  grid-template-columns: 340px 1fr;
   margin-top: 115px;
 
 }
@@ -250,7 +250,7 @@
   flex-direction: column;
   gap: 1.2em;
   width: 685px;
-  margin-top: 100px;
+  margin-top: 102px;
   font-size: 20px;
 }
 

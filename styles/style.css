@@ -225,10 +225,10 @@
 .logo_white_background {
   display: flex;
   justify-content: center;
-  width: 235px;
-  height: 235px;
-  margin-top: 35px;
-  margin-left: 65px;
+  width: 220px;
+  height: 220px;
+  margin-top: 40px;
+  margin-left: 75px;
   border-radius: 50%;
   background-color: black;
 }

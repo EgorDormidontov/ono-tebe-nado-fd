@@ -7,12 +7,13 @@
   margin-top: 90px;
   margin-bottom: 94px;
 }
+
 .navigation {
   display: flex;
   gap: 33px;
+  margin-left: 50px;
   font-size: 18px;
   list-style-type: circle;
-  margin-left: 50px;
 }
 
 .image_header {
@@ -46,7 +47,7 @@
 
 /* ГЛАВНАЯ СЕКЦИЯ */
 
-.main_screen_section {
+.cover {
   position: relative;
   min-height: 757px;
 }
@@ -65,11 +66,12 @@
   width: 100%;
   height: 100%;
   background-image: url(../images/cover.jpg);
+  background-position:center;
   background-size: cover;
 }
 
 
-.main_screen_text {
+.cover__title {
   color: white;
   font-weight: bold;
   font-size: 100px;
@@ -77,56 +79,57 @@
   text-transform: uppercase;
 }
 
-#ono {
+.aligned-text {
   display: block;
+}
+
+.aligned-text_left {
   margin-left: 50px;
   padding-top: 165px;
 }
 
-#tebe {
-  display: block;
-  margin-left: 380px;
+.aligned-text_center {
   margin-top: 15px;
+  margin-left: 380px;
 }
 
-#nado {
-  display: block;
-  margin-left: 664px;
+.aligned-text_right {
   margin-top: 20px;
+  margin-left: 664px;
 }
 
-.text_main_screen_over_betbutton {
+.cover__description {
   display: inline-block;
-  color: white;
+  width: 65%;
   margin-top: 118px;
   margin-left: 50px;
-  width: 65%;
+  color: white;
   font-weight: lighter;
   font-size: 22px;
   text-transform: uppercase;
   word-spacing: 18.5px;
 }
 
-.betbutton_style {
+.bet-button {
   width: 256px;
   height: 50px;
+  margin-left: 25px;
   border: 2px solid currentColor;
   color: white;
   font-size: 22px;
   text-transform: uppercase;
   background-color: transparent;
-  margin-left: 25px;
 }
 
 /* ЛОТЫ */
-.Lots_section_header {
+.lots__heading {
   margin-top: 179px;
   margin-left: 65px;
   font-size: 40px;
   text-transform: uppercase;
 }
 
-.cards {
+.lots__card-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
@@ -136,15 +139,15 @@
   list-style: none;
 }
 
-.card_link_style {
+.card_link {
   display: block;
-  height: 100%;
   width: 100%;
+  height: 100%;
   color: white;
   text-decoration:none;
 }
 
-.card_conteiner {
+.lots__card-list-item {
   position: relative;
   width: 334px;
   min-height: 600px;
@@ -155,47 +158,49 @@
   z-index: -2;
   width: 100%;
   height: 100%;
+  background-position:center;
+  background-size:cover;
 }
 
 .film {
-  background-image: url(/images/card-lot-01.jpg);
+  background-image: url(./images/card-lot-01.jpg);
 }
 
 .book {
-  background-image: url(/images/card-lot-02.jpg);
+  background-image: url(./images/card-lot-02.jpg);
 }
 
 .painting {
-  background-image: url(/images/card-lot-03.jpg);
+  background-image: url(./images/card-lot-03.jpg);
 }
 
 .card_info {
-  min-height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 40px;
   width:254px;
+  min-height: 100%;
+  margin-left: 40px;
 }
 
 .card_header {
+  margin-top: 50px;
   color: white;
   font-weight: bold;
   font-size: 22px;
-  text-transform: uppercase;
-  margin-top: 50px;
   text-decoration: underline;
-  text-underline-offset: 4px;
   text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+  text-transform: uppercase;
 }
 
 .card_text {
+  margin-bottom: 50px;
   color: white;
   font-size: 20px;
-  margin-bottom: 50px;
 }
 
-.see_more {
+.lots__look-more-link {
   display: block;
   margin-top: 30px;
   margin-left: 64px;
@@ -228,31 +233,37 @@
   background-color: black;
 }
 
+.about_margin {
+  margin-left: 40px;
+}
+
 .about_header {
   justify-self: start;
   margin-top: 137px;
-  margin-left: 40px;
   font-weight: bold;
   font-size: 40px;
   text-transform: uppercase;
 }
 
 .about_text {
-  display: grid;
-  margin-top: 8px;
-  grid-template-rows: 145px;
-  margin-left: 40px;
-  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2em;
+  width: 685px;
+  margin-top: 100px;
   font-size: 20px;
-  width:695px;
+}
+
+.no_transfer_to_next_line {
+  white-space: nowrap;
 }
 
 /* ФУТЕР */
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-bottom: 80px;
   margin-top: 181px;
+  margin-bottom: 80px;
 }
 
 .footer_adress_margin {
@@ -264,10 +275,10 @@
   flex-flow: column;
   justify-self: center;
   align-items: center;
-  list-style: none;
-  text-underline-offset: 3px;
-  line-height: 22px;
   font-size: 18px;
+  line-height: 22px;
+  text-underline-offset: 3px;
+  list-style: none;
 }
 
 .footer_links {

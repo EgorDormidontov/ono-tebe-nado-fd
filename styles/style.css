@@ -225,11 +225,11 @@
 .logo_white_background {
   display: flex;
   justify-content: center;
-  width: 240px;
-  height: 240px;
+  width: 250px;
+  height: 250px;
   margin-top: 35px;
   margin-left: 62px;
-  border-radius: 55%;
+  border-radius: 50%;
   background-color: black;
 }
 

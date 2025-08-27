@@ -27,11 +27,15 @@
   font-style: normal;
 }
 
-.basic_info {
-  width:220px;
-  margin-left: 183px;
+.address {
+  width:240px;
   font-size: 18px;
   line-height: 25px;
+}
+
+.header__address {
+  margin-left: 183px;
+  width: 220px;
 }
 
 .navig_link {
@@ -293,10 +297,4 @@
 .footer_img {
   width: 48px;
   height: 48px;
-}
-
-.basic_info_footer {
-  width:240px;
-  font-size: 18px;
-  line-height: 25px;
 }
